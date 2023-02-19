@@ -1,0 +1,74 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>About Us</h1>
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest university</h1>     
+            <p>The journey of Centurion University of Technology and Management (CUTM) began in the year 2005 by a group of ambitious academics with aspirations to provide high quality education both nationally and internationally. The first step in this direction was to take over an ailing engineering Institute, the Jagannath Institute for Technology and Management (JITM) in one of the most challenging tribal districts of Odisha and one which was considered to be a left-wing extremist affected area. Subsequently, JITM was transformed into Centurion University of Technology and Management in August 2010, through an act of Odisha Legislative Assembly. It became the First Multi-Sector State Private University in Odisha.</p>
+
+<p>The core objective of CUTM is ‘shaping lives and empower communities’, and creating wealth and livelihood opportunities at the bottom of the pyramid. The objective is achieved through education and training, financial services and other projects in rural communities, particularly in southern Odisha and northern coastal Andhra Pradesh. CUTM has strong environmental as well as social values. The University leads a network of educational institutions delivering primary, secondary, tertiary and vocational education and training. CUTM evolved from the Jagannath Institute of Technology and Management (JITM) and Centurion School of Rural Enterprise Management (CSREM) at Parlakhemundi, and the Centurion Institute of Technology (CIT) at Jatni, Bhubaneswar</p>
+            <a href="https://cutm.ac.in/about-us/sub_confirmation=1" class="hero-btn red-btn">EXPOLER NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>    
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>Centurion University is the Best private University in Odisha & provides best facilities. Ranked Among top 20% of Indian Universities as per NIRF Rank by Ministry of HRD GOI.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/centurionuniversity/sub_confirmation=1"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/CUTMIndia?s=20sub_confirmation=1"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/cutmodisha/sub_confirmation=1"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCy2a2NdleGSGlEd5FxyOcOAsub_confirmation=1"><i class="fa fa-linkedin"></i></a>
+        </div>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
